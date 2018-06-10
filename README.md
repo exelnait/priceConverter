@@ -22,4 +22,6 @@ npm -g install .
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+```
+npm test
+```
