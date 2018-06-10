@@ -1,0 +1,31 @@
+{
+  "name": "usd-price-converter",
+  "version": "1.0.0",
+  "description": "Convert price From 'USD' to 'UAH', 'EUR' or 'GBP'",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exelnait/priceConverter.git"
+  },
+  "keywords": [
+    "price",
+    "currency",
+    "converter"
+  ],
+  "author": "Timofey Lavrenyuk",
+  "license": "MIT",
+  "bin": {
+    "convert-price": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/exelnait/priceConverter/issues"
+  },
+  "homepage": "https://github.com/exelnait/priceConverter#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}
